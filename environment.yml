@@ -1,0 +1,16 @@
+name: openrel
+channels:
+  - conda-forge
+variables:
+  KMP_DUPLICATE_LIB_OK: "TRUE"
+dependencies:
+  - python=3.10
+  - pip
+  - ipykernel
+  - jupyterlab
+  - numpy
+  - pandas
+  - pyarrow
+  - scikit-learn<=1.6.1
+  - pip:
+      - -e .[example]
