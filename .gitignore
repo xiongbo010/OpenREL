@@ -14,6 +14,3 @@ checkpoints/
 
 # Local experiments
 .env
-
-# Accidental nested clone kept locally but not tracked
-OpenREL/
