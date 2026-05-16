@@ -1,12 +1,19 @@
-__pycache__
-.ipynb_checkpoints
-/examples/data
-/data
-.idea/
-venv/
-results/
-cache
+.DS_Store
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+build/
+dist/
+*.egg-info/
 
-# pixi environments
-.pixi
-*.egg-info
+# Research outputs
+data/
+outputs/
+artifacts/
+checkpoints/
+
+# Local experiments
+.env
+
+# Accidental nested clone kept locally but not tracked
+OpenREL/

@@ -13,4 +13,4 @@ dependencies:
   - pyarrow
   - scikit-learn<=1.6.1
   - pip:
-      - -e .[example]
+      - -e ./third_party/relbench[example]
